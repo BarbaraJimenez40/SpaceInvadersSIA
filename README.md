@@ -41,3 +41,47 @@ Cela démarrera un serveur local. Ouvrez votre navigateur et accédez à l'URL i
 | **"Kill" tous les ennemis**               | `K`               |
 | **Activer la musique de jeu**             | `M`               |
 | **Activer le Post-processing**            | `P`               |
+
+-----------------------------------------------------------------
+
+This project is a **Space Invaders** game developed with **three.js**.
+
+### Prerequisites
+
+- **Node.js** 
+- **npm** 
+
+## Installation
+
+1. Clone this repository or download the project:
+```bash
+git clone https://github.com/BarbaraJimenez40/SpaceInvadersSIA.git
+```
+2. Navigate to the project folder:
+```bash
+cd SpaceInvadersSIA
+```
+3. Install Dependencies:
+```bash
+npm install 
+```
+4. To run the project, use the following command:
+```bash
+npm run dev
+```
+This will start a local server. Open your browser and go to the URL shown in the terminal.
+
+## Game Controls
+
+| Feature                                  | Shortcut          |
+|------------------------------------------|-------------------|
+| **Keyboard shortcuts summary**           | `H`               |
+| **Switch cameras**                       | `Key 0/1/2`       |
+| **Move (left/right)**                    | `Arrow keys`      |
+| **Shoot**                                | `Spacebar`        |
+| **Invincible mode**                      | `I`               |
+| **"Kill" all enemies**                   | `K`               |
+| **Enable game music**                    | `M`               |
+| **Enable post-processing**               | `P`               |
+
+
