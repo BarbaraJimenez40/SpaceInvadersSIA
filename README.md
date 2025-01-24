@@ -14,7 +14,7 @@ Ce projet est un jeu de **Space Invaders** développé avec **three.js**.
 git clone https://github.com/BarbaraJimenez40/SpaceInvadersSIA.git
 ```
 
-2. Accédez au dossier du projet.
+2. Accédez au dossier du projet :
 ```bash
 cd SpaceInvadersSIA
 ```
