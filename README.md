@@ -44,7 +44,7 @@ Cela démarrera un serveur local. Ouvrez votre navigateur et accédez à l'URL i
 
 ## Remarque
 
-Actuellement, tout le code est centralisé dans le fichier `main.js`. À l'avenir, il est possible que je sépare le code en plusieurs fichiers pour une meilleure organisation.
+Actuellement, tout le code est centralisé dans le fichier `main.js`. À l'avenir, le code sera séparé en plusieurs fichiers pour une meilleure organisation.
 
 -----------------------------------------------------------------
 
