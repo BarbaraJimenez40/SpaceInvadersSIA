@@ -79,16 +79,12 @@ var ufo = null;
 var modelBC1 = null;
 var modelBC2 = null;
 var modelBC3 = null;
-
 var squids_nb = 11; //Nombre d'aliens
 var crabs_nb = 22;
 var octopuses_nb = 22;
-
 var playerSpaceship = null;
-
 const shelters = [];
 var sheltersGroup = null;
-
 var xstartposition = null; //Position
 var ystartposition = null;
 var speed = 2; //vitesse et déplacement
@@ -99,16 +95,13 @@ var general_xdirection = 1; //direction
 var general_ydirection = 0;
 var frame = 0; //frame
 var alienMoveFrame = 0;
-
 var invincibleMode = false;
 var cheatKeyInvinciblePressed = null;
 var helpPressed = false;
 var processPressed = false;
 var musicPressed= false;
 var gameOverTriggered = false;
-
 var arcadeFont = null;
-
 var levelGame = 1;
 var score = null; //Score
 var scorePoseX = 32.22;
@@ -116,11 +109,9 @@ var health = null; //Vies
 var healthPoseX = 32.9;
 var levelPoseX = 32.4;
 var helpPoseX = -37;
-
 var activeScene = menuScene; //Scene active
 var cameraMode = "normal";
 var camPosX = 0;
-
 const mixer = new THREE.AnimationMixer();
 
 /*------------------------------------------------------------------------------------------*
@@ -319,7 +310,6 @@ function KeyDownMusic(event) {
   }
 }
 
-
 /*------------------------------------------------------------------------------------------*
  *   Background                                                                             *
  * -----------------------------------------------------------------------------------------*/
@@ -513,7 +503,6 @@ function menu() {
   myName.lookAt(cameraMenu.position);
   myName.position.set(-39.7, -21, 0);
   menuScene.add(myName);
-
 }
 
 /*------------------------------------------------------------------------------------------*
@@ -622,7 +611,6 @@ function levelUpdate() {
   gameScene.add(textLevel);
 }
 
-
 /*------------------------------------------------------------------------------------------*
  *   Recapitulatif des raccourcis clavier                                                   *
  * -----------------------------------------------------------------------------------------*/
@@ -672,9 +660,6 @@ function KeyDownHelp(event) {
     //recap();
   }
 }
-
-
-
 
 /*------------------------------------------------------------------------------------------*
  *   Mode triche                                                                            *
@@ -1242,8 +1227,6 @@ function removeShelters() {
   shelters.length = 0;
 }
 
-
-
 /*------------------------------------------------------------------------------------------*
  *   Balle de tir des aliens                                                                *
  * -----------------------------------------------------------------------------------------*/
@@ -1263,7 +1246,6 @@ function checkAlienBullet() {
 
   }
 }
-
 
 /*------------------------------------------------------------------------------------------*
  *   Abris                                                                                  *
@@ -1376,7 +1358,6 @@ function checkCollision() {
         }
       }
     });
-
 
     shelters.forEach(function (shelter) {
       var intersectCubeP = ray.intersectObjects(shelter.children);
