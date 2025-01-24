@@ -42,6 +42,10 @@ Cela démarrera un serveur local. Ouvrez votre navigateur et accédez à l'URL i
 | **Activer la musique de jeu**             | `M`               |
 | **Activer le Post-processing**            | `P`               |
 
+## Remarque
+
+Actuellement, tout le code est centralisé dans le fichier `main.js`. À l'avenir, il est possible que je sépare le code en plusieurs fichiers pour une meilleure organisation.
+
 -----------------------------------------------------------------
 
 This project is a **Space Invaders** game developed with **three.js**.
