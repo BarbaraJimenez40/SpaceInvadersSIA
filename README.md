@@ -10,8 +10,14 @@ Ce projet est un jeu de **Space Invaders** développé avec **three.js**.
 ## Installation
 
 1. Clonez ce repository ou téléchargez le projet.
+```bash
+git clone https://github.com/BarbaraJimenez40/SpaceInvadersSIA.git
+```
 
 2. Accédez au dossier du projet.
+```bash
+cd SpaceInvadersSIA
+```
 
 3. Installez les dépendances :
 ```bash
